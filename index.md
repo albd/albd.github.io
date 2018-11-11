@@ -1,12 +1,23 @@
-# Projects
+Teaching cars to drive themselves.
 
-## Partitioning of CUDA SMs among tasks to improve Real-Time schedulability
+[Places I have lived](geohistory.md)
 
-Demo of feasibility study of using GPU partitioning to achieve task isolation
-<script src="https://asciinema.org/a/T945JcRx3vVh5cKadyi0FNKFp.js" id="asciicast-T945JcRx3vVh5cKadyi0FNKFp" async></script>
+## Projects
 
-## Detection, Tracking, and Classification of Objects using Multiple Fisheye Images
+### [CudaMon](cudamon.md)
+A Dynamic GPU partition controller to improve Real Time schedulability on Volta Architecture.
 
-<iframe width="640" height="480" src="http://www.youtube.com/embed/vpoCfC724iA" frameborder="0" allowfullscreen></iframe>
-<br>
-<iframe width="640" height="480" src="http://www.youtube.com/embed/dC1HUrTiHYM" frameborder="0" allowfullscreen></iframe>
+## [Ecosystem](ecosystem.md)
+The tools I use. The way my phone, laptop and server is configured.
+
+## [Other Stuff](misc.md)
+
+## [FAQ](faq.md)
+Questions I get asked the most.
+
+## External Links
+
+### [GoodReads](https://www.goodreads.com/user/show/70698325-albert-davies)
+### [Pandora](https://www.pandora.com/profile/alb_d)
+### [Duolingo](https://www.duolingo.com/alb_d)
+### [Linkedin](https://www.linkedin.com/in/albert-davies/)
