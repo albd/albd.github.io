@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-11-12 Mon 00:02 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ALBERT DAVIES</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Albert Davies" />
+<link rel="stylesheet" href="./style.css" type="text/css"/>
+
+<script src="//use.edgefonts.net/open-sans:n3,i3,n4,i4,n6,i6,n7,i7,n8,i8.js"></script>
+
+<script src="//use.edgefonts.net/open-sans-condensed:n3,i3,n7.js"></script>
+
+<script src="//use.edgefonts.net/league-gothic:n4.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">ALBERT DAVIES</h1>
+<p>
+ <img style="float:right; border: #404040 1px solid;" src="photo.jpeg" width="325" alt="photo" />
+</p>
+<div id="outline-container-org400ff0f" class="outline-2">
+<h2 id="org400ff0f">ALBERT <br>DAVIES</h2>
+<div class="outline-text-2" id="text-org400ff0f">
+<p>
+Teaching cars to drive themselves.
+</p>
+
+<p>
+<a href="geohistory.html">Places I have lived</a>
+</p>
+</div>
+
+<div id="outline-container-orgbba935c" class="outline-3">
+<h3 id="orgbba935c">Projects</h3>
+<div class="outline-text-3" id="text-orgbba935c">
+</div>
+<div id="outline-container-orgacd08d5" class="outline-4">
+<h4 id="orgacd08d5"><a href="cudamon.html">CudaMon</a></h4>
+<div class="outline-text-4" id="text-orgacd08d5">
+<p>
+A Dynamic GPU partition controller to improve Real Time schedulability on Volta Architecture.
+</p>
+</div>
+</div>
+<div id="outline-container-orge0d2ff3" class="outline-4">
+<h4 id="orge0d2ff3">GraphRats</h4>
+<div class="outline-text-4" id="text-orge0d2ff3">
+<p>
+Optimized a sequential version of multi-agent simulation where each agent is a rat. The rats perform random walk on a 2D graph weighted by the density of rats in neighboring nodes.
+Parallelized this using shared memory(OpenMP) and message passing(MPI) programming models.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf61d107" class="outline-4">
+<h4 id="orgf61d107">2D Circle Renderer</h4>
+<div class="outline-text-4" id="text-orgf61d107">
+<p>
+Developed and optimized a CUDA kernel to render 100K circles on a 2D canvas with alpha blending.
+Optimally distributed work among the thread blocks using parallel version of Prefix Sum. Leveraged thread local as well as shared memory within each block to achieve maximal speedup.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfa31d0b" class="outline-4">
+<h4 id="orgfa31d0b">Raft algorithm for Distributed Consensus</h4>
+<div class="outline-text-4" id="text-orgfa31d0b">
+<p>
+Implemented entire protocol as prescribed in the Raft paper including leader election, basic log replication, safety and consistency after leader changes and neutralization of old leaders
+</p>
+</div>
+</div>
+<div id="outline-container-org77062ca" class="outline-4">
+<h4 id="org77062ca">Real-time Utilization Tracking and Enforcement in Linux Kernel</h4>
+<div class="outline-text-4" id="text-org77062ca">
+<p>
+Added framework to enforce processor time reservation for real-time tasks on Nexus 7 tablet. This was done by adding real-time extensions to the Android Linux Kernel.
+Implemented rate monotonic scheduling, energy saving rate monotonic scheduling, admission test for checking schedulability and multiple bin-packing heuristics for muti-core scheduling.
+</p>
+</div>
+</div>
+<div id="outline-container-org83913cb" class="outline-4">
+<h4 id="org83913cb">Live Sequence Protocol based Bitcoin Mining Pool</h4>
+<div class="outline-text-4" id="text-org83913cb">
+<p>
+Implemented the Live Sequence Protocol to transmit packets reliably over UDP. LSP is a simplified version of TCP that implements sliding window and ordered reliable delivery of packets.
+Implemented a distributed bitcoin mining pool using the Live Sequence Protocol. The mining search space would be partitioned among dynamically available miners to effectively use the entire mining pool.
+</p>
+</div>
+</div>
+<div id="outline-container-org2a3dd19" class="outline-4">
+<h4 id="org2a3dd19"><a href="surroundview.html">Integration and Optimization of Automotive Vision Applications on TI TDA2x, Nvidia TX1/TX2 with 4 fisheye cameras</a></h4>
+<div class="outline-text-4" id="text-org2a3dd19">
+<p>
+Integrated and optimized Surround view monitoring and Moving object detection algorithms written in C/C++ on target platform.
+Surround view monitoring application stitches the video feed from 4 cameras to create a single video showing ground around the car.
+Moving object detection highlights the parts of the video input from 4 cameras that have moving objects in them.
+Optimized the ported applications using DSP, GPU and vision accelerators supported by the system. Both the algorithms were run in parallel and composite output video was generated.
+Built a prototype to test the system. This was then deployed on the real car and evaluated.
+</p>
+</div>
+</div>
+<div id="outline-container-org32b1e48" class="outline-4">
+<h4 id="org32b1e48">Indoor Localization using Time of Flight</h4>
+<div class="outline-text-4" id="text-org32b1e48">
+<p>
+Localization of mobile node in 3 dimensions using Decawave DWM1000.
+The Time of Flight was calculated between the anchor nodes and the mobile nodes.
+The multilateration equations were solved to provide the 3-D coordinates of mobile node in real time.
+</p>
+</div>
+</div>
+<div id="outline-container-org131fb78" class="outline-4">
+<h4 id="org131fb78">Confocal Microscopy</h4>
+<div class="outline-text-4" id="text-org131fb78">
+<p>
+Developed imaging software to scan the nucleus of a cell with confocal microscope.
+Co-authored the paper “ConFocus+: Software solution for adaptable and low-cost Con-
+focal Laser Scanning Microscope(CLSM)”. The paper was submitted to VIMANTRA
+2013, a national level technical paper writing contest organized by National Instruments.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd96bb7e" class="outline-4">
+<h4 id="orgd96bb7e">Stepper Motor Control of Z-axis of Confocal Microscope</h4>
+<div class="outline-text-4" id="text-orgd96bb7e">
+<p>
+Interfaced and implemented computer guided control of Stepper Motor using NI Labview to drive the Z-axis of microscope in small increments to create 3d image.
+</p>
+</div>
+</div>
+<div id="outline-container-org2d0b9a1" class="outline-4">
+<h4 id="org2d0b9a1">Coconut Climbing Robot</h4>
+<div class="outline-text-4" id="text-org2d0b9a1">
+<p>
+Designed and developed prototype of robot capable of climbing coconut tree.
+</p>
+</div>
+</div>
+<div id="outline-container-org0ffea12" class="outline-4">
+<h4 id="org0ffea12">AC Susceptometer Dipstick using Linear Variable Differentiable Transducer (LVDT)</h4>
+<div class="outline-text-4" id="text-org0ffea12">
+<p>
+The objective of this project is to determine the magnetic susceptibility of a ferromagnetic material in an oscillating magnetic field using an LVDT setup and a dipstick model.
+</p>
+</div>
+</div>
+<div id="outline-container-org5a7eb28" class="outline-4">
+<h4 id="org5a7eb28">Fugitives</h4>
+<div class="outline-text-4" id="text-org5a7eb28">
+<p>
+Grid Following Swarm Robotics event
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org94fc39b" class="outline-3">
+<h3 id="org94fc39b"><a href="ecosystem.html">Ecosystem</a></h3>
+<div class="outline-text-3" id="text-org94fc39b">
+<p>
+The tools I use. The way my phone, laptop and server is configured.
+</p>
+</div>
+</div>
+<div id="outline-container-orga980717" class="outline-3">
+<h3 id="orga980717"><a href="misc.html">Other Stuff</a></h3>
+</div>
+<div id="outline-container-org6817d97" class="outline-3">
+<h3 id="org6817d97"><a href="faq.html">FAQ</a></h3>
+<div class="outline-text-3" id="text-org6817d97">
+<p>
+Questions I get asked the most.
+</p>
+</div>
+</div>
+<div id="outline-container-org5d2fa36" class="outline-3">
+<h3 id="org5d2fa36">External Links</h3>
+<div class="outline-text-3" id="text-org5d2fa36">
+</div>
+<ul class="org-ul">
+<li><a id="org69f10a2"></a><a href="https://www.goodreads.com/user/show/70698325-albert-davies">GoodReads</a><br /></li>
+<li><a id="org6c3a11a"></a><a href="https://www.pandora.com/profile/alb_d">Pandora</a><br /></li>
+<li><a id="org4f43406"></a><a href="https://www.duolingo.com/alb_d">Duolingo</a><br /></li>
+<li><a id="org83cbc21"></a><a href="https://www.linkedin.com/in/albert-davies/">Linkedin</a><br /></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb9d80a1" class="outline-2">
+<h2 id="orgb9d80a1"></h2>
+<div class="outline-text-2" id="text-orgb9d80a1">
+<p>
+The CSS for this site has been borrowed from <a href="https://graphics.stanford.edu/~kayvonf/">Kayvon Fatahalian's Website</a>.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Albert Davies</p>
+<p class="date">Created: 2018-11-12 Mon 00:02</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
