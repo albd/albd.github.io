@@ -1,0 +1,43 @@
+body
+{
+    font-family: open-sans, sans-serif;
+    font-size: 13pt;
+    color: #404040;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body a
+{
+    color: #000000;
+    text-decoration: underline;
+}
+
+body a:hover
+{
+    color: #808080;
+    text-decoration: underline;
+}
+
+.title
+{
+    display: none;
+}
+
+h2
+{
+    font-family: league-gothic, sans-serif;
+    font-weight: 700;
+    font-size: 62pt;
+    line-height: 54pt;
+    color: #000000;
+}
+
+h3
+{
+    font-family: league-gothic, sans-serif;
+    font-weight: 700;
+    font-size: 36pt;
+    color: #000000;
+}

@@ -1,0 +1,63 @@
+#+TITLE: ALBERT DAVIES
+
+@@html: <img style="float:right; border: #404040 1px solid;" src="photo.jpeg" width="325" alt="photo" />@@
+* ALBERT@@html: <br>@@DAVIES
+
+Teaching cars to drive themselves.
+
+[[file:geohistory.org][Places I have lived]]
+
+** Projects
+*** [[file:cudamon.org][CudaMon]]
+ A Dynamic GPU partition controller to improve Real Time schedulability on Volta Architecture.
+*** GraphRats
+ Optimized a sequential version of multi-agent simulation where each agent is a rat. The rats perform random walk on a 2D graph weighted by the density of rats in neighboring nodes.
+ Parallelized this using shared memory(OpenMP) and message passing(MPI) programming models.
+*** 2D Circle Renderer
+ Developed and optimized a CUDA kernel to render 100K circles on a 2D canvas with alpha blending.
+ Optimally distributed work among the thread blocks using parallel version of Prefix Sum. Leveraged thread local as well as shared memory within each block to achieve maximal speedup.
+*** Raft algorithm for Distributed Consensus
+ Implemented entire protocol as prescribed in the Raft paper including leader election, basic log replication, safety and consistency after leader changes and neutralization of old leaders
+*** Real-time Utilization Tracking and Enforcement in Linux Kernel
+ Added framework to enforce processor time reservation for real-time tasks on Nexus 7 tablet. This was done by adding real-time extensions to the Android Linux Kernel.
+ Implemented rate monotonic scheduling, energy saving rate monotonic scheduling, admission test for checking schedulability and multiple bin-packing heuristics for muti-core scheduling.
+*** Live Sequence Protocol based Bitcoin Mining Pool
+ Implemented the Live Sequence Protocol to transmit packets reliably over UDP. LSP is a simplified version of TCP that implements sliding window and ordered reliable delivery of packets.
+ Implemented a distributed bitcoin mining pool using the Live Sequence Protocol. The mining search space would be partitioned among dynamically available miners to effectively use the entire mining pool.
+*** [[file:surroundview.org][Integration and Optimization of Automotive Vision Applications on TI TDA2x, Nvidia TX1/TX2 with 4 fisheye cameras]]
+ Integrated and optimized Surround view monitoring and Moving object detection algorithms written in C/C++ on target platform.
+ Surround view monitoring application stitches the video feed from 4 cameras to create a single video showing ground around the car.
+ Moving object detection highlights the parts of the video input from 4 cameras that have moving objects in them.
+ Optimized the ported applications using DSP, GPU and vision accelerators supported by the system. Both the algorithms were run in parallel and composite output video was generated.
+ Built a prototype to test the system. This was then deployed on the real car and evaluated.
+*** Indoor Localization using Time of Flight
+ Localization of mobile node in 3 dimensions using Decawave DWM1000.
+ The Time of Flight was calculated between the anchor nodes and the mobile nodes.
+ The multilateration equations were solved to provide the 3-D coordinates of mobile node in real time.
+*** Confocal Microscopy
+ Developed imaging software to scan the nucleus of a cell with confocal microscope.
+ Co-authored the paper “ConFocus+: Software solution for adaptable and low-cost Con-
+ focal Laser Scanning Microscope(CLSM)”. The paper was submitted to VIMANTRA
+ 2013, a national level technical paper writing contest organized by National Instruments.
+*** Stepper Motor Control of Z-axis of Confocal Microscope
+ Interfaced and implemented computer guided control of Stepper Motor using NI Labview to drive the Z-axis of microscope in small increments to create 3d image.
+*** Coconut Climbing Robot
+ Designed and developed prototype of robot capable of climbing coconut tree.
+*** AC Susceptometer Dipstick using Linear Variable Differentiable Transducer (LVDT)
+ The objective of this project is to determine the magnetic susceptibility of a ferromagnetic material in an oscillating magnetic field using an LVDT setup and a dipstick model.
+*** Fugitives
+ Grid Following Swarm Robotics event
+
+** [[file:ecosystem.org][Ecosystem]]
+ The tools I use. The way my phone, laptop and server is configured.
+** [[file:misc.org][Other Stuff]]
+** [[file:faq.org][FAQ]]
+ Questions I get asked the most.
+** External Links
+**** [[https://www.goodreads.com/user/show/70698325-albert-davies][GoodReads]]
+**** [[https://www.pandora.com/profile/alb_d][Pandora]]
+**** [[https://www.duolingo.com/alb_d][Duolingo]]
+**** [[https://www.linkedin.com/in/albert-davies/][Linkedin]]
+
+* 
+The CSS for this site has been borrowed from [[https://graphics.stanford.edu/~kayvonf/][Kayvon Fatahalian's Website]].
